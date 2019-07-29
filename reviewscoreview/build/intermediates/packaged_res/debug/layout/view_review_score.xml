@@ -229,7 +229,7 @@
             android:id="@+id/reviews_size"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="58 条评价"
+            android:text="58 reviews"
             android:textAppearance="?attr/textAppearanceBody1" />
 
     </LinearLayout>
