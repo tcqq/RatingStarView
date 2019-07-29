@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:baselineAligned="false">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rating_progress_container"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/review_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textAppearance="?attr/textAppearanceSubtitle2"
+            android:textColor="@color/secondary_color"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ProgressBar
+            android:id="@+id/rating_progress_five"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="12dp"
+            android:layout_marginStart="8dp"
+            android:max="100"
+            android:progress="100"
+            android:progressDrawable="@drawable/review_progress"
+            app:layout_constraintBottom_toBottomOf="@+id/review_five"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/review_five"
+            app:layout_constraintTop_toTopOf="@+id/review_five" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/review_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="4"
+            android:textAppearance="?attr/textAppearanceSubtitle2"
+            android:textColor="@color/secondary_color"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/review_five" />
+
+        <ProgressBar
+            android:id="@+id/rating_progress_four"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="12dp"
+            android:layout_marginStart="8dp"
+            android:max="100"
+            android:progress="80"
+            android:progressDrawable="@drawable/review_progress"
+            app:layout_constraintBottom_toBottomOf="@+id/review_four"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/review_four"
+            app:layout_constraintTop_toTopOf="@+id/review_four" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/review_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="3"
+            android:textAppearance="?attr/textAppearanceSubtitle2"
+            android:textColor="@color/secondary_color"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/review_four" />
+
+        <ProgressBar
+            android:id="@+id/rating_progress_three"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="12dp"
+            android:layout_marginStart="8dp"
+            android:max="100"
+            android:progress="30"
+            android:progressDrawable="@drawable/review_progress"
+            app:layout_constraintBottom_toBottomOf="@+id/review_three"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/review_three"
+            app:layout_constraintTop_toTopOf="@+id/review_three" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/review_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="2"
+            android:textAppearance="?attr/textAppearanceSubtitle2"
+            android:textColor="@color/secondary_color"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/review_three" />
+
+        <ProgressBar
+            android:id="@+id/rating_progress_two"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="12dp"
+            android:layout_marginStart="8dp"
+            android:max="100"
+            android:progress="60"
+            android:progressDrawable="@drawable/review_progress"
+            app:layout_constraintBottom_toBottomOf="@+id/review_two"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/review_two"
+            app:layout_constraintTop_toTopOf="@+id/review_two" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/review_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="1"
+            android:textAppearance="?attr/textAppearanceSubtitle2"
+            android:textColor="@color/secondary_color"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/review_two" />
+
+        <ProgressBar
+            android:id="@+id/rating_progress_one"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="12dp"
+            android:layout_marginStart="8dp"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/review_progress"
+            app:layout_constraintBottom_toBottomOf="@+id/review_one"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/review_one"
+            app:layout_constraintTop_toTopOf="@+id/review_one" />
+
+        <!--
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/review_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textAppearance="?attr/textAppearanceSubtitle2"
+            android:textColor="@color/secondary_color"
+            app:layout_constraintBottom_toBottomOf="@+id/rating_progress_two"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/rating_progress_two" />
+
+        <ProgressBar
+            android:id="@+id/rating_progress_two"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:max="100"
+            android:progress="10"
+            android:progressDrawable="@drawable/review_progress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/review_two"
+            app:layout_constraintTop_toBottomOf="@+id/rating_progress_three" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/review_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textAppearance="?attr/textAppearanceSubtitle2"
+            android:textColor="@color/secondary_color"
+            app:layout_constraintBottom_toBottomOf="@+id/rating_progress_one"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/rating_progress_one" />
+
+        <ProgressBar
+            android:id="@+id/rating_progress_one"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/review_progress"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/review_one"
+            app:layout_constraintTop_toBottomOf="@+id/rating_progress_two" />-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/rating_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="48dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/rating_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.3"
+            android:textAppearance="?attr/textAppearanceHeadline3" />
+
+        <androidx.appcompat.widget.AppCompatRatingBar
+            android:id="@+id/rating_bar"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="12dp"
+            android:rating="4.3"
+            android:theme="@style/RatingBar" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/reviews_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="58 条评价"
+            android:textAppearance="?attr/textAppearanceBody1" />
+
+    </LinearLayout>
+
+</LinearLayout>
