@@ -45,7 +45,7 @@ INJECTED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:2:1-21:
 INJECTED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:2:1-21:12
 INJECTED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:2:1-21:12
 	package
-		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:3:11-47
+		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:3:11-48
 		INJECTED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml
 		INJECTED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -82,7 +82,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] C:\U
 		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:6:13-39
 	android:theme
 		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:11:13-44
-activity#com.example.reviewoverview.MainActivity
+activity#com.example.ReviewScoreView.MainActivity
 ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
 		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:12:19-47

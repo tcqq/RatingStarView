@@ -8,7 +8,7 @@
     <attr name="waveDecay"/>
     <color name="review_filled_color">#fabb05</color>
     <color name="secondary_color">#757575</color>
-    <string name="app_name">ReviewOverview</string>
+    <string name="app_name">ReviewScoreView</string>
     <style name="RatingBar" parent="Theme.MaterialComponents.Light">
         <item name="colorControlActivated">@color/review_filled_color</item>
     </style>
