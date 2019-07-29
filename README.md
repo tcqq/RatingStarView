@@ -31,7 +31,7 @@ dependencies {
 
 # Screenshots
 
-![Screenshot](/screenshots/screenshot1.png)
+![Screenshot](/screenshots/screenshot_1.png)
 
 License
 -------
