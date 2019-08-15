@@ -1,4 +1,4 @@
-#Mon Jul 29 10:34:27 CST 2019
+#Thu Aug 15 14:27:30 CST 2019
 base.0=E\:\\GitHub\\ReviewScoreView\\app\\build\\intermediates\\dex\\release\\out\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

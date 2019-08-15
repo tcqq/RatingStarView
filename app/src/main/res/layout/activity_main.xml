@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.example.reviewscoreview.MainActivity">
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
@@ -14,6 +14,7 @@
         android:layout_marginEnd="8dp">
 
         <com.tcqq.reviewscoreview.ReviewScoreView
+            android:id="@+id/review_score_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="14dp"

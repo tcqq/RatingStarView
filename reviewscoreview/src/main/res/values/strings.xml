@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ReviewScoreView</string>
+    <string name="n_reviews">%1$d reviews</string>
 </resources>

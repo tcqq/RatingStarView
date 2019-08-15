@@ -173,17 +173,18 @@ document.getElementById(id).style.display = 'none';
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
-      <span class="mdl-layout-title">Lint Report: 7 warnings</span>
+      <span class="mdl-layout-title">Lint Report: 6 warnings</span>
       <div class="mdl-layout-spacer"></div>
       <nav class="mdl-navigation mdl-layout--large-screen-only">
-Check performed at Mon Jul 29 10:34:30 CST 2019      </nav>
+Check performed at Thu Aug 15 14:27:30 CST 2019      </nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
     <span class="mdl-layout-title">Issue Types</span>
     <nav class="mdl-navigation">
       <a class="mdl-navigation__link" href="#overview"><i class="material-icons">dashboard</i>Overview</a>
-      <a class="mdl-navigation__link" href="#HardcodedText"><i class="material-icons warning-icon">warning</i>Hardcoded text (7)</a>
+      <a class="mdl-navigation__link" href="#PluralsCandidate"><i class="material-icons warning-icon">warning</i>Potential Plurals (1)</a>
+      <a class="mdl-navigation__link" href="#HardcodedText"><i class="material-icons warning-icon">warning</i>Hardcoded text (5)</a>
     </nav>
   </div>
   <main class="mdl-layout__content">
@@ -196,16 +197,84 @@ Check performed at Mon Jul 29 10:34:30 CST 2019      </nav>
   </div>
               <div class="mdl-card__supporting-text">
 <table class="overview">
+<tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Correctness:Messages">Correctness:Messages</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<a href="#PluralsCandidate">PluralsCandidate</a>: Potential Plurals</td></tr>
 <tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Internationalization">Internationalization</a>
 </td></tr>
 <tr>
-<td class="countColumn">7</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<td class="countColumn">5</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#HardcodedText">HardcodedText</a>: Hardcoded text</td></tr>
 <tr><td></td><td class="categoryColumn"><a href="#MissingIssues">Disabled Checks (37)</a>
 </td></tr></table>
 <br/>              </div>
               <div class="mdl-card__actions mdl-card--border">
 <button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="OverviewCardLink" onclick="hideid('OverviewCard');">
+Dismiss</button>            </div>
+            </div>
+          </section>
+<a name="Correctness:Messages"></a>
+<a name="PluralsCandidate"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="PluralsCandidateCard" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Potential Plurals</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+<div class="issue">
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:3</span>: <span class="message">Formatting %d followed by words ("reviews"): This should probably be a plural rather than a string</span><br /><pre class="errorlines">
+<span class="lineno"> 1 </span><span class="tag">&lt;resources></span>
+<span class="lineno"> 2 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"app_name"</span>>ReviewScoreView<span class="tag">&lt;/string></span>
+<span class="caretline"><span class="lineno"> 3 </span>    <span class="warning"><span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"n_reviews"</span>>%1$d reviews<span class="tag">&lt;/string></span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 4 </span><span class="tag">&lt;/resources></span>
+</pre>
+
+</div>
+<div class="metadata"><div class="explanation" id="explanationPluralsCandidate" style="display: none;">
+This lint check looks for potential errors in internationalization where you have translated a message which involves a quantity and it looks like other parts of the string may need grammatical changes.<br/>
+<br/>
+For example, rather than something like this:
+<pre>
+  &lt;string name="try_again">Try again in %d seconds.&lt;/string>
+</pre>
+you should be using a plural:
+<pre>
+   &lt;plurals name="try_again">
+        &lt;item quantity="one">Try again in %d second&lt;/item>
+        &lt;item quantity="other">Try again in %d seconds&lt;/item>
+    &lt;/plurals>
+</pre>
+This will ensure that in other languages the right set of translations are provided for the different quantity classes.<br/>
+<br/>
+(This check depends on some heuristics, so it may not accurately determine whether a string really should be a quantity. You can use tools:ignore to filter out false positives.<br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/topics/resources/string-resource.html#Plurals">http://developer.android.com/guide/topics/resources/string-resource.html#Plurals</a>
+</div>To suppress this error, use the issue id "PluralsCandidate" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="chips">
+<span class="mdl-chip">
+    <span class="mdl-chip__text">PluralsCandidate</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Messages</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Correctness</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Warning</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Priority 5/10</span>
+</span>
+</div>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationPluralsCandidateLink" onclick="reveal('explanationPluralsCandidate');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="PluralsCandidateCardLink" onclick="hideid('PluralsCandidateCard');">
 Dismiss</button>            </div>
             </div>
           </section>
@@ -220,7 +289,7 @@ Dismiss</button>            </div>
 <div class="issue">
 <div class="warningslist">
 <span class="location"><a href="../../src/main/res/layout/view_review_score.xml">../../src/main/res/layout/view_review_score.xml</a>:28</span>: <span class="message">Hardcoded string "5", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno">  25 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/review_five"</span>
+<span class="lineno">  25 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/review_five_text"</span>
 <span class="lineno">  26 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"wrap_content"</span>
 <span class="lineno">  27 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
 <span class="caretline"><span class="lineno">  28 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"5"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
@@ -267,26 +336,6 @@ Dismiss</button>            </div>
 <span class="lineno"> 129 </span>            <span class="prefix">android:</span><span class="attribute">textAppearance</span>=<span class="value">"?attr/textAppearanceSubtitle2"</span>
 <span class="lineno"> 130 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/secondary_color"</span>
 <span class="lineno"> 131 </span>            <span class="prefix">app:</span><span class="attribute">layout_constraintStart_toStartOf</span>=<span class="value">"parent"</span>
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/view_review_score.xml">../../src/main/res/layout/view_review_score.xml</a>:215</span>: <span class="message">Hardcoded string "4.3", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 212 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/rating_value"</span>
-<span class="lineno"> 213 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 214 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="caretline"><span class="lineno"> 215 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"4.3"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 216 </span>            <span class="prefix">android:</span><span class="attribute">textAppearance</span>=<span class="value">"?attr/textAppearanceHeadline3"</span> />
-<span class="lineno"> 217 </span>
-<span class="lineno"> 218 </span>        <span class="tag">&lt;androidx.appcompat.widget.AppCompatRatingBar</span><span class="attribute">
-</span></pre>
-
-<span class="location"><a href="../../src/main/res/layout/view_review_score.xml">../../src/main/res/layout/view_review_score.xml</a>:232</span>: <span class="message">Hardcoded string "58 &#26465;&#35780;&#20215;", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 229 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/reviews_size"</span>
-<span class="lineno"> 230 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 231 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="caretline"><span class="lineno"> 232 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"58 条评价"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 233 </span>            <span class="prefix">android:</span><span class="attribute">textAppearance</span>=<span class="value">"?attr/textAppearanceBody1"</span> />
-<span class="lineno"> 234 </span>
-<span class="lineno"> 235 </span>    <span class="tag">&lt;/LinearLayout></span>
 </pre>
 
 </div>

@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.ReviewScoreView"
+3    package="com.example.reviewscoreview"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
@@ -11,33 +11,33 @@
 9-->E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:5:5-19:19
+11-->E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:6:5-21:19
 12        android:allowBackup="true"
-12-->E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:6:13-39
+12-->E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:7:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.2.0-alpha01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\ad37629936947c30f4eca089b0380576\core-1.2.0-alpha01\AndroidManifest.xml:22:18-86
+13-->[androidx.core:core:1.1.0-rc02] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\ca8a76b4700ef18b3e4bb2ebbf274134\core-1.1.0-rc02\AndroidManifest.xml:24:18-86
 14        android:icon="@mipmap/ic_launcher"
-14-->E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:7:13-47
+14-->E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:8:9-43
 15        android:label="@string/app_name"
-15-->E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:8:13-45
+15-->E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:9:9-41
 16        android:roundIcon="@mipmap/ic_launcher_round"
-16-->E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:9:13-58
+16-->E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:10:9-54
 17        android:supportsRtl="true"
-17-->E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:10:13-39
+17-->E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:11:9-35
 18        android:theme="@style/AppTheme" >
-18-->E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:11:13-44
-19        <activity android:name="com.example.ReviewScoreView.MainActivity" >
-19-->E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:12:9-18:20
-19-->E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:12:19-47
+18-->E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:12:9-40
+19        <activity android:name="com.example.reviewscoreview.MainActivity" >
+19-->E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:14:9-20:20
+19-->E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:14:19-47
 20            <intent-filter>
-20-->E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:13:13-17:29
+20-->E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:15:13-19:29
 21                <action android:name="android.intent.action.MAIN" />
-21-->E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:14:17-68
-21-->E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:14:25-66
+21-->E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:16:17-69
+21-->E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:16:25-66
 22
 23                <category android:name="android.intent.category.LAUNCHER" />
-23-->E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:16:17-76
-23-->E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:16:27-74
+23-->E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:18:17-77
+23-->E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:18:27-74
 24            </intent-filter>
 25        </activity>
 26    </application>

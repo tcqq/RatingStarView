@@ -7,13 +7,17 @@
 View for displaying review scores.
 
 # Usage
-Supported attributes with _default_ values:
 ``` 
 <com.tcqq.reviewscoreview.ReviewScoreView
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android usual attrs
-    (see below).../>
-```
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+``` 
+
+``` 
+review_score_view.setRatingProgress(one: Int, two: Int, three: Int, four: Int, five: Int)
+review_score_view.setRating(rating: Float)
+review_score_view.setReviewSize(size: Int)
+``` 
 
 # Setup
 #### build.gradle
@@ -25,7 +29,7 @@ repositories {
 ```
 dependencies {
     // Using JCenter
-    implementation 'com.tcqq.android:reviewscoreview:1.0.0-alpha-1'
+    implementation 'com.tcqq.android:reviewscoreview:1.0.0'
 }
 ```
 

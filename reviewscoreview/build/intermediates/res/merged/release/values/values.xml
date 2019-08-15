@@ -924,6 +924,7 @@
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="chip_text">Chip text</string>
     <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="error_icon_content_description">Error</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
@@ -939,7 +940,10 @@
     <string description="A single date [CHAR_LIMIT=60]" name="mtrl_picker_date_header_selected">%1$s</string>
     <string description="Indicates that the user must take the action of picking a date within the calendar [CHAR_LIMIT=60]" name="mtrl_picker_date_header_title">Select a Date</string>
     <string description="Placeholder for a single date [CHAR_LIMIT=60]" name="mtrl_picker_date_header_unselected">Selected Date</string>
-    <string description="Placeholders for two dates separated by a dash representing a range where start date has been selected [CHAR_LIMIT=60]" name="mtrl_picker_range_header_only_end_selected">Start Date – %1$s</string>
+    <string description="Indicates that the user entered date cannot be parsed because its format is wrong. The user should instead use the format after the colon. Includes a line break [CHAR_LIMIT=54]" name="mtrl_picker_invalid_format">Invalid Format.\nUse: %1$s</string>
+    <string description="Notifies the user that the two entered dates do not represent a valid range of dates [CHAR_LIMIT=36]" name="mtrl_picker_invalid_range">Invalid Range.</string>
+    <string description="Notifies the user that the entered date is outside the allowed range [CHAR_LIMIT=36]" name="mtrl_picker_out_of_range">Out of Range: %1$s</string>
+    <string description="Placeholders for two dates separated by a dash representing a range where end date has been selected [CHAR_LIMIT=60]" name="mtrl_picker_range_header_only_end_selected">Start Date – %1$s</string>
     <string description="Placeholders for two dates separated by a dash representing a range where start date has been selected [CHAR_LIMIT=60]" name="mtrl_picker_range_header_only_start_selected">%1$s – End Date</string>
     <string description="Two dates separated by a dash representing a range [CHAR_LIMIT=60]" name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
     <string description="Indicates that the user must take the action of picking dates within the calendar to form a range [CHAR_LIMIT=60]" name="mtrl_picker_range_header_title">Select a Date Range</string>
@@ -949,6 +953,7 @@
     <string description="Label for a single date selected by the user [CHAR_LIMIT=60]" name="mtrl_picker_text_input_date_hint">Date</string>
     <string description="Label for the end date in a range selected by the user [CHAR_LIMIT=60]" name="mtrl_picker_text_input_date_range_end_hint">End Date</string>
     <string description="Label for the start date in a range selected by the user [CHAR_LIMIT=60]" name="mtrl_picker_text_input_date_range_start_hint">Start Date</string>
+    <string name="n_reviews">%1$d reviews</string>
     <string name="password_toggle_content_description">Show password</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
@@ -2752,6 +2757,8 @@
 
     <item name="boxBackgroundMode">outline</item>
     <item name="boxBackgroundColor">@null</item>
+    <item name="errorIconDrawable">@drawable/mtrl_ic_error</item>
+    <item name="errorIconTint">@color/mtrl_error</item>
     <item name="endIconTint">@color/mtrl_outlined_icon_tint</item>
     <item name="startIconTint">@color/mtrl_outlined_icon_tint</item>
     <item name="boxCollapsedPaddingTop">0dp</item>
@@ -3845,6 +3852,7 @@
     <item name="passwordToggleDrawable">@drawable/design_password_eye</item>
     <item name="passwordToggleTint">@color/design_icon_tint</item>
     <item name="passwordToggleContentDescription">@string/password_toggle_content_description</item>
+    <item name="errorIconDrawable">@null</item>
     <item name="endIconTint">@color/design_icon_tint</item>
     <item name="startIconTint">@color/design_icon_tint</item>
 
@@ -3900,6 +3908,7 @@
     <style name="Widget.MaterialComponents.Badge" parent="android:Widget">
     <item name="backgroundColor">?attr/colorError</item>
     <item name="maxCharacterCount">@integer/mtrl_badge_max_character_count</item>
+    <item name="badgeGravity">TOP_END</item>
   </style>
     <style name="Widget.MaterialComponents.BottomAppBar" parent="Widget.AppCompat.Toolbar">
     <item name="enforceMaterialTheme">true</item>
@@ -5212,6 +5221,12 @@
     <attr format="color" name="badgeTextColor"/>
     <attr format="integer" name="maxCharacterCount"/>
     <attr format="integer" name="number"/>
+    <attr name="badgeGravity">
+      <enum name="TOP_END" value="0"/>
+      <enum name="TOP_START" value="1"/>
+      <enum name="BOTTOM_END" value="2"/>
+      <enum name="BOTTOM_START" value="3"/>
+    </attr>
   </declare-styleable>
     <declare-styleable name="BottomAppBar">
     <!-- Background for the BottomAppBar. -->
@@ -6868,6 +6883,27 @@
     <!-- Text color for any error message displayed.
          If set, this takes precedence over errorTextAppearance. -->
     <attr format="color" name="errorTextColor"/>
+    <!-- End icon to be shown when an error is displayed. -->
+    <attr format="reference" name="errorIconDrawable"/>
+    <!-- Tint color to use for the error icon. -->
+    <attr format="reference" name="errorIconTint"/>
+    <!-- Blending mode used to apply the error icon tint. -->
+    <attr name="errorIconTintMode">
+      <!-- The tint is drawn on top of the drawable.
+           [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+      <enum name="src_over" value="3"/>
+      <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+           color channels are thrown out. [Sa * Da, Sc * Da] -->
+      <enum name="src_in" value="5"/>
+      <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+           channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+      <enum name="src_atop" value="9"/>
+      <!-- Multiplies the color and alpha channels of the drawable with those of
+           the tint. [Sa * Da, Sc * Dc] -->
+      <enum name="multiply" value="14"/>
+      <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+      <enum name="screen" value="15"/>
+    </attr>
 
     <!-- Whether the layout is laid out as if the character counter will be displayed. -->
     <attr format="boolean" name="counterEnabled"/>
@@ -6888,6 +6924,8 @@
     <attr format="reference" name="startIconDrawable"/>
     <!-- Text to set as the content description for the start icon. -->
     <attr format="string" name="startIconContentDescription"/>
+    <!-- Whether the start icon is checkable. -->
+    <attr format="boolean" name="startIconCheckable"/>
     <!-- Tint color to use for the start icon. -->
     <attr format="color" name="startIconTint"/>
     <!-- Blending mode used to apply the background tint. -->
@@ -6925,6 +6963,8 @@
     <attr format="reference" name="endIconDrawable"/>
     <!-- Text to set as the content description for the end icon. -->
     <attr format="string" name="endIconContentDescription"/>
+    <!-- Whether the end icon is checkable. -->
+    <attr format="boolean" name="endIconCheckable"/>
     <!-- Tint color to use for the end icon. -->
     <attr format="color" name="endIconTint"/>
     <!-- Blending mode used to apply the background tint. -->

@@ -15,7 +15,7 @@
         errorLine2="     ~~~~~~~~~~~">
         <location
             file="E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml"
-            line="5"
+            line="6"
             column="6"/>
     </issue>
 
@@ -35,24 +35,6 @@
             file="E:\GitHub\ReviewScoreView\app\src\main\res\layout\activity_main.xml"
             line="2"
             column="1"/>
-    </issue>
-
-    <issue
-        id="GoogleAppIndexingWarning"
-        severity="Warning"
-        message="App is not indexable by Google Search; consider adding at least one Activity with an ACTION-VIEW intent filter. See issue explanation for more details."
-        category="Usability"
-        priority="5"
-        summary="Missing support for Firebase App Indexing"
-        explanation="Adds URLs to get your app into the Google index, to get installs and traffic to your app from Google Search."
-        url="https://g.co/AppIndexing/AndroidStudio"
-        urls="https://g.co/AppIndexing/AndroidStudio"
-        errorLine1="    &lt;application"
-        errorLine2="    ^">
-        <location
-            file="E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml"
-            line="5"
-            column="5"/>
     </issue>
 
 </issues>

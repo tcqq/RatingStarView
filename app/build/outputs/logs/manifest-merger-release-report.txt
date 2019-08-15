@@ -1,101 +1,97 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:2:1-23:12
 MERGED from [:reviewscoreview] E:\GitHub\ReviewScoreView\reviewscoreview\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\4fb4ad982faef4c9750b46090c168a02\constraintlayout-2.0.0-beta2\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.material:material:1.1.0-alpha08] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\fa4695351354e0d5e9cf8cac651967c0\material-1.1.0-alpha08\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.1.0-alpha09] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\5cee232ea5f970cc00e58eb1bef22606\material-1.1.0-alpha09\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\79cf637c26148c70babd46cb3604a174\appcompat-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.0.2] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\09e118dc61cba5be081d1edc23bfaa2c\core-ktx-1.0.2\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\4952e39bcc5e2ecffc7dd7c516942922\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\f4f5eddb67b94f24346d14fdef72c6e2\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\6961aa5b4d7f5e02137a7a592d59ce1c\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha06] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\c4249696de77f06910c271a014008d81\viewpager2-1.0.0-alpha06\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta02] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\722b5783892feea1028155e8fce5a4af\viewpager2-1.0.0-beta02\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.1.0-rc01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\b36fa5e613784620dfbef513bb691e8e\fragment-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\40ba4d063c7fa3257368b1c54afd0929\appcompat-resources-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\6a2b81913c616f9f2fa8ccf13ad29b09\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\f4f5eddb67b94f24346d14fdef72c6e2\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\c84394eede14de9834ed5252f752535c\coordinatorlayout-1.1.0-beta01\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\b125251353e66666f905d097360c5eab\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.transition:transition:1.0.1] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\b49da585d3062bdfb540665bfe57d4a4\transition-1.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\72fec72954ffd4b1d935a054e82a9193\vectordrawable-animated-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\10f4102769dad6c75276029cad6f9d7d\vectordrawable-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\73f8cfea8a1a3e67dab61c4769570321\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\993cb22e72f7b5a8acccc13e3417fda3\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.0.0-rc01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\772b42448942b754fa9d7100ba1a274a\activity-1.0.0-rc01\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\b4ba83b48ec9e2f22069cca35da7f943\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\3080ddf6fdad7e5b2426613957c742d6\recyclerview-1.1.0-beta01\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\435641115bd950c2b58276517311d315\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\cc360bf2066d2ab004548590cc42e100\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\ab3c30c1c29e1040242c436ed6fe5a77\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.2.0-alpha01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\ad37629936947c30f4eca089b0380576\core-1.2.0-alpha01\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\08301adfd71818da62d61147da9651ba\versionedparcelable-1.1.0-beta01\AndroidManifest.xml:17:1-25:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\cdd3a705c0fc3b15e5bb4084b45dd264\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\39b055947027faf7b155b3dcd81e135a\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\a8eb394457d52af819192ebe98c8bd7b\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\17651339b4537a2e92fcbca2d73fb8fb\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0-rc02] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\ca8a76b4700ef18b3e4bb2ebbf274134\core-1.1.0-rc02\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\7242607866a233a0f9445a66046117d2\versionedparcelable-1.1.0-rc01\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\d4a7aa9906cf35fa8aaf56c722555b5a\lifecycle-runtime-2.1.0-rc01\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\3c95492de215f2e56a0f2b37a90914d2\lifecycle-viewmodel-2.1.0-rc01\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\1614a5e382217c03eddb480f22f42c41\savedstate-1.0.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\cdd3a705c0fc3b15e5bb4084b45dd264\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\283d33ef529dc87611be6c227cafea46\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\a72ec89f00ea043f7a1069b96cd7959a\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\b22e410a51326e8c9d6b0f4e81c694be\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:2:1-23:12
 	package
-		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:3:11-48
+		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:4:5-42
 		INJECTED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml
 		INJECTED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml
-		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:2:1-23:12
 		INJECTED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml
-		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:2:1-23:12
 		INJECTED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:5:5-19:19
+ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:6:5-21:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\4fb4ad982faef4c9750b46090c168a02\constraintlayout-2.0.0-beta2\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\4fb4ad982faef4c9750b46090c168a02\constraintlayout-2.0.0-beta2\AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.material:material:1.1.0-alpha08] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\fa4695351354e0d5e9cf8cac651967c0\material-1.1.0-alpha08\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.1.0-alpha08] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\fa4695351354e0d5e9cf8cac651967c0\material-1.1.0-alpha08\AndroidManifest.xml:22:5-20
-MERGED from [androidx.core:core:1.2.0-alpha01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\ad37629936947c30f4eca089b0380576\core-1.2.0-alpha01\AndroidManifest.xml:22:5-89
-MERGED from [androidx.core:core:1.2.0-alpha01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\ad37629936947c30f4eca089b0380576\core-1.2.0-alpha01\AndroidManifest.xml:22:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\08301adfd71818da62d61147da9651ba\versionedparcelable-1.1.0-beta01\AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\08301adfd71818da62d61147da9651ba\versionedparcelable-1.1.0-beta01\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.material:material:1.1.0-alpha09] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\5cee232ea5f970cc00e58eb1bef22606\material-1.1.0-alpha09\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha09] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\5cee232ea5f970cc00e58eb1bef22606\material-1.1.0-alpha09\AndroidManifest.xml:22:5-20
+MERGED from [androidx.core:core:1.1.0-rc02] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\ca8a76b4700ef18b3e4bb2ebbf274134\core-1.1.0-rc02\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0-rc02] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\ca8a76b4700ef18b3e4bb2ebbf274134\core-1.1.0-rc02\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\7242607866a233a0f9445a66046117d2\versionedparcelable-1.1.0-rc01\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\7242607866a233a0f9445a66046117d2\versionedparcelable-1.1.0-rc01\AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.2.0-alpha01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\ad37629936947c30f4eca089b0380576\core-1.2.0-alpha01\AndroidManifest.xml:22:18-86
+		ADDED from [androidx.core:core:1.1.0-rc02] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\ca8a76b4700ef18b3e4bb2ebbf274134\core-1.1.0-rc02\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:10:13-39
+		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:8:13-45
+		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:9:9-41
+	tools:ignore
+		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:13:9-48
 	android:roundIcon
-		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:9:13-58
+		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:10:9-54
 	android:icon
-		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:7:13-47
+		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:8:9-43
 	android:allowBackup
-		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:6:13-39
+		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:11:13-44
-activity#com.example.ReviewScoreView.MainActivity
-ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:12:9-18:20
+		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:12:9-40
+activity#com.example.reviewscoreview.MainActivity
+ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:14:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:14:17-68
+ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:16:17-76
+ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml:18:27-74
 uses-sdk
 INJECTED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\GitHub\ReviewScoreView\app\src\main\AndroidManifest.xml
@@ -104,30 +100,26 @@ MERGED from [:reviewscoreview] E:\GitHub\ReviewScoreView\reviewscoreview\build\i
 MERGED from [:reviewscoreview] E:\GitHub\ReviewScoreView\reviewscoreview\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\4fb4ad982faef4c9750b46090c168a02\constraintlayout-2.0.0-beta2\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\4fb4ad982faef4c9750b46090c168a02\constraintlayout-2.0.0-beta2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.material:material:1.1.0-alpha08] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\fa4695351354e0d5e9cf8cac651967c0\material-1.1.0-alpha08\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.1.0-alpha08] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\fa4695351354e0d5e9cf8cac651967c0\material-1.1.0-alpha08\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha09] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\5cee232ea5f970cc00e58eb1bef22606\material-1.1.0-alpha09\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha09] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\5cee232ea5f970cc00e58eb1bef22606\material-1.1.0-alpha09\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\79cf637c26148c70babd46cb3604a174\appcompat-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\79cf637c26148c70babd46cb3604a174\appcompat-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core-ktx:1.0.2] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\09e118dc61cba5be081d1edc23bfaa2c\core-ktx-1.0.2\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.0.2] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\09e118dc61cba5be081d1edc23bfaa2c\core-ktx-1.0.2\AndroidManifest.xml:5:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\4952e39bcc5e2ecffc7dd7c516942922\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\4952e39bcc5e2ecffc7dd7c516942922\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\f4f5eddb67b94f24346d14fdef72c6e2\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\f4f5eddb67b94f24346d14fdef72c6e2\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\6961aa5b4d7f5e02137a7a592d59ce1c\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\6961aa5b4d7f5e02137a7a592d59ce1c\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha06] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\c4249696de77f06910c271a014008d81\viewpager2-1.0.0-alpha06\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha06] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\c4249696de77f06910c271a014008d81\viewpager2-1.0.0-alpha06\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta02] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\722b5783892feea1028155e8fce5a4af\viewpager2-1.0.0-beta02\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta02] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\722b5783892feea1028155e8fce5a4af\viewpager2-1.0.0-beta02\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0-rc01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\b36fa5e613784620dfbef513bb691e8e\fragment-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0-rc01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\b36fa5e613784620dfbef513bb691e8e\fragment-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\40ba4d063c7fa3257368b1c54afd0929\appcompat-resources-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\40ba4d063c7fa3257368b1c54afd0929\appcompat-resources-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\6a2b81913c616f9f2fa8ccf13ad29b09\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\6a2b81913c616f9f2fa8ccf13ad29b09\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\f4f5eddb67b94f24346d14fdef72c6e2\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\f4f5eddb67b94f24346d14fdef72c6e2\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\c84394eede14de9834ed5252f752535c\coordinatorlayout-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\c84394eede14de9834ed5252f752535c\coordinatorlayout-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\b125251353e66666f905d097360c5eab\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\b125251353e66666f905d097360c5eab\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.transition:transition:1.0.1] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\b49da585d3062bdfb540665bfe57d4a4\transition-1.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.transition:transition:1.0.1] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\b49da585d3062bdfb540665bfe57d4a4\transition-1.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\72fec72954ffd4b1d935a054e82a9193\vectordrawable-animated-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
@@ -140,34 +132,22 @@ MERGED from [androidx.loader:loader:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\993cb22e72f7b5a8acccc13e3417fda3\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.0.0-rc01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\772b42448942b754fa9d7100ba1a274a\activity-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.0.0-rc01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\772b42448942b754fa9d7100ba1a274a\activity-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\b4ba83b48ec9e2f22069cca35da7f943\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\b4ba83b48ec9e2f22069cca35da7f943\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\3080ddf6fdad7e5b2426613957c742d6\recyclerview-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\3080ddf6fdad7e5b2426613957c742d6\recyclerview-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\435641115bd950c2b58276517311d315\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\435641115bd950c2b58276517311d315\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\cc360bf2066d2ab004548590cc42e100\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\cc360bf2066d2ab004548590cc42e100\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\ab3c30c1c29e1040242c436ed6fe5a77\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\ab3c30c1c29e1040242c436ed6fe5a77\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.2.0-alpha01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\ad37629936947c30f4eca089b0380576\core-1.2.0-alpha01\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.2.0-alpha01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\ad37629936947c30f4eca089b0380576\core-1.2.0-alpha01\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\08301adfd71818da62d61147da9651ba\versionedparcelable-1.1.0-beta01\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\08301adfd71818da62d61147da9651ba\versionedparcelable-1.1.0-beta01\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\cdd3a705c0fc3b15e5bb4084b45dd264\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\cdd3a705c0fc3b15e5bb4084b45dd264\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\39b055947027faf7b155b3dcd81e135a\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\39b055947027faf7b155b3dcd81e135a\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\a8eb394457d52af819192ebe98c8bd7b\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\a8eb394457d52af819192ebe98c8bd7b\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\17651339b4537a2e92fcbca2d73fb8fb\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\17651339b4537a2e92fcbca2d73fb8fb\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-rc02] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\ca8a76b4700ef18b3e4bb2ebbf274134\core-1.1.0-rc02\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0-rc02] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\ca8a76b4700ef18b3e4bb2ebbf274134\core-1.1.0-rc02\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\7242607866a233a0f9445a66046117d2\versionedparcelable-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\7242607866a233a0f9445a66046117d2\versionedparcelable-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\d4a7aa9906cf35fa8aaf56c722555b5a\lifecycle-runtime-2.1.0-rc01\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\d4a7aa9906cf35fa8aaf56c722555b5a\lifecycle-runtime-2.1.0-rc01\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\3c95492de215f2e56a0f2b37a90914d2\lifecycle-viewmodel-2.1.0-rc01\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\3c95492de215f2e56a0f2b37a90914d2\lifecycle-viewmodel-2.1.0-rc01\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\1614a5e382217c03eddb480f22f42c41\savedstate-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\1614a5e382217c03eddb480f22f42c41\savedstate-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\cdd3a705c0fc3b15e5bb4084b45dd264\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\cdd3a705c0fc3b15e5bb4084b45dd264\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\283d33ef529dc87611be6c227cafea46\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\283d33ef529dc87611be6c227cafea46\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Alan Dreamer\.gradle\caches\transforms-2\files-2.1\a72ec89f00ea043f7a1069b96cd7959a\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44

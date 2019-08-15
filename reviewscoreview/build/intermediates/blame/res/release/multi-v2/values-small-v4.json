@@ -4,7 +4,7 @@
             "outputFile": "E:\\GitHub\\ReviewScoreView\\reviewscoreview\\build\\intermediates\\res\\merged\\release\\values-small-v4\\values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Alan Dreamer\\.gradle\\caches\\transforms-2\\files-2.1\\fa4695351354e0d5e9cf8cac651967c0\\material-1.1.0-alpha08\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\Alan Dreamer\\.gradle\\caches\\transforms-2\\files-2.1\\5cee232ea5f970cc00e58eb1bef22606\\material-1.1.0-alpha09\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -19,7 +19,7 @@
             "outputFile": "E:\\GitHub\\ReviewScoreView\\reviewscoreview\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Alan Dreamer\\.gradle\\caches\\transforms-2\\files-2.1\\fa4695351354e0d5e9cf8cac651967c0\\material-1.1.0-alpha08\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\Alan Dreamer\\.gradle\\caches\\transforms-2\\files-2.1\\5cee232ea5f970cc00e58eb1bef22606\\material-1.1.0-alpha09\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

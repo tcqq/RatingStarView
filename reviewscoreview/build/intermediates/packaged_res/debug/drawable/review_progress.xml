@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@android:id/background">
         <shape>
@@ -6,13 +7,32 @@
         </shape>
     </item>
 
-    <item android:id="@android:id/progress">
-
-        <scale android:scaleWidth="100%">
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
             <shape>
                 <corners android:radius="8dp" />
-                <solid android:color="@color/review_filled_color" />
+                <gradient
+                    android:angle="270"
+                    android:centerColor="@color/rating_progress_bar_background_color_selector"
+                    android:centerY="0.75"
+                    android:endColor="@color/review_filled_color"
+                    android:startColor="@color/review_filled_color"
+
+                    />
             </shape>
-        </scale>
+        </clip>
+    </item>
+
+
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="8dp" />
+                <gradient
+                    android:angle="270"
+                    android:endColor="@color/review_filled_color"
+                    android:startColor="@color/review_filled_color" />
+            </shape>
+        </clip>
     </item>
 </layer-list>
