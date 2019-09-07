@@ -1,4 +1,0 @@
-#Sun Sep 08 00:10:57 CST 2019
-base.0=E\:\\GitHub\\ReviewScoreView\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
