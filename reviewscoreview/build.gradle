@@ -8,21 +8,18 @@ publish {
     groupId = 'com.tcqq.android'
     artifactId = 'reviewscoreview'
     repoName = 'android'
-    publishVersion = '1.0.1'
+    publishVersion = '1.0.2'
     desc = 'View for displaying review scores.'
     website = 'https://github.com/tcqq/ReviewScoreView'
 }
 
 android {
     compileSdkVersion 29
-    buildToolsVersion "29.0.0"
-
-
     defaultConfig {
         minSdkVersion 17
         targetSdkVersion 29
-        versionCode 4
-        versionName "1.0.1"
+        versionCode 5
+        versionName "1.0.2"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles 'consumer-rules.pro'

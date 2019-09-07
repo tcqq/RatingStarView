@@ -12,3 +12,7 @@
 /captures
 .externalNativeBuild
 .cxx
+
+# Project exclude paths
+/app/build/
+/reviewscoreview/build/

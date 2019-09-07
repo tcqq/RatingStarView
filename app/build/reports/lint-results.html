@@ -173,18 +173,18 @@ document.getElementById(id).style.display = 'none';
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
-      <span class="mdl-layout-title">Lint Report: 2 warnings</span>
+      <span class="mdl-layout-title">Lint Report: 5 warnings</span>
       <div class="mdl-layout-spacer"></div>
       <nav class="mdl-navigation mdl-layout--large-screen-only">
-Check performed at Thu Aug 15 14:27:20 CST 2019      </nav>
+Check performed at Sun Sep 08 00:10:53 CST 2019      </nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
     <span class="mdl-layout-title">Issue Types</span>
     <nav class="mdl-navigation">
       <a class="mdl-navigation__link" href="#overview"><i class="material-icons">dashboard</i>Overview</a>
+      <a class="mdl-navigation__link" href="#GradleDependency"><i class="material-icons warning-icon">warning</i>Obsolete Gradle Dependency (4)</a>
       <a class="mdl-navigation__link" href="#AllowBackup"><i class="material-icons warning-icon">warning</i>AllowBackup/FullBackupContent Problems (1)</a>
-      <a class="mdl-navigation__link" href="#MergeRootFrame"><i class="material-icons warning-icon">warning</i>FrameLayout can be replaced with <code>&lt;merge></code> tag (1)</a>
     </nav>
   </div>
   <main class="mdl-layout__content">
@@ -197,21 +197,98 @@ Check performed at Thu Aug 15 14:27:20 CST 2019      </nav>
   </div>
               <div class="mdl-card__supporting-text">
 <table class="overview">
+<tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Correctness">Correctness</a>
+</td></tr>
+<tr>
+<td class="countColumn">4</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<a href="#GradleDependency">GradleDependency</a>: Obsolete Gradle Dependency</td></tr>
 <tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Security">Security</a>
 </td></tr>
 <tr>
 <td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#AllowBackup">AllowBackup</a>: AllowBackup/FullBackupContent Problems</td></tr>
-<tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Performance">Performance</a>
-</td></tr>
-<tr>
-<td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
-<a href="#MergeRootFrame">MergeRootFrame</a>: FrameLayout can be replaced with <code>&lt;merge></code> tag</td></tr>
-<tr><td></td><td class="categoryColumn"><a href="#MissingIssues">Disabled Checks (37)</a>
+<tr><td></td><td class="categoryColumn"><a href="#MissingIssues">Disabled Checks (33)</a>
 </td></tr></table>
 <br/>              </div>
               <div class="mdl-card__actions mdl-card--border">
 <button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="OverviewCardLink" onclick="hideid('OverviewCard');">
+Dismiss</button>            </div>
+            </div>
+          </section>
+<a name="Correctness"></a>
+<a name="GradleDependency"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="GradleDependencyCard" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Obsolete Gradle Dependency</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+<div class="issue">
+<div class="warningslist">
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:41</span>: <span class="message">A newer version of androidx.appcompat:appcompat than 1.0.2 is available: 1.1.0</span><br /><pre class="errorlines">
+<span class="lineno"> 38 </span>    implementation <span class="string">"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"</span>
+<span class="lineno"> 39 </span>
+<span class="lineno"> 40 </span>    <span class="comment">//AndroidX</span>
+<span class="caretline"><span class="lineno"> 41 </span>    <span class="warning">implementation <span class="string">'androidx.appcompat:appcompat:1.0.2'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 42 </span>    implementation <span class="string">'androidx.core:core-ktx:1.0.2'</span>
+<span class="lineno"> 43 </span>    implementation <span class="string">'androidx.constraintlayout:constraintlayout:2.0.0-beta2'</span>
+<span class="lineno"> 44 </span>    implementation <span class="string">'androidx.appcompat:appcompat:1.1.0-rc01'</span>
+</pre>
+
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:42</span>: <span class="message">A newer version of androidx.core:core-ktx than 1.0.2 is available: 1.1.0</span><br /><pre class="errorlines">
+<span class="lineno"> 39 </span>
+<span class="lineno"> 40 </span>    <span class="comment">//AndroidX</span>
+<span class="lineno"> 41 </span>    implementation <span class="string">'androidx.appcompat:appcompat:1.0.2'</span>
+<span class="caretline"><span class="lineno"> 42 </span>    <span class="warning">implementation <span class="string">'androidx.core:core-ktx:1.0.2'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 43 </span>    implementation <span class="string">'androidx.constraintlayout:constraintlayout:2.0.0-beta2'</span>
+<span class="lineno"> 44 </span>    implementation <span class="string">'androidx.appcompat:appcompat:1.1.0-rc01'</span>
+<span class="lineno"> 45 </span>    implementation <span class="string">'androidx.cardview:cardview:1.0.0'</span>
+</pre>
+
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:44</span>: <span class="message">A newer version of androidx.appcompat:appcompat than 1.1.0-rc01 is available: 1.1.0</span><br /><pre class="errorlines">
+<span class="lineno"> 41 </span>    implementation <span class="string">'androidx.appcompat:appcompat:1.0.2'</span>
+<span class="lineno"> 42 </span>    implementation <span class="string">'androidx.core:core-ktx:1.0.2'</span>
+<span class="lineno"> 43 </span>    implementation <span class="string">'androidx.constraintlayout:constraintlayout:2.0.0-beta2'</span>
+<span class="caretline"><span class="lineno"> 44 </span>    <span class="warning">implementation <span class="string">'androidx.appcompat:appcompat:1.1.0-rc01'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 45 </span>    implementation <span class="string">'androidx.cardview:cardview:1.0.0'</span>
+<span class="lineno"> 46 </span>
+<span class="lineno"> 47 </span>    <span class="comment">//Google</span></pre>
+
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:48</span>: <span class="message">A newer version of com.google.android.material:material than 1.1.0-alpha09 is available: 1.1.0-alpha10</span><br /><pre class="errorlines">
+<span class="lineno"> 45 </span>    implementation <span class="string">'androidx.cardview:cardview:1.0.0'</span>
+<span class="lineno"> 46 </span>
+<span class="lineno"> 47 </span>    <span class="comment">//Google</span>
+<span class="caretline"><span class="lineno"> 48 </span>    <span class="warning">implementation <span class="string">'com.google.android.material:material:1.1.0-alpha09'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 49 </span>
+<span class="lineno"> 50 </span>    <span class="comment">//ReviewScoreView</span>
+<span class="lineno"> 51 </span>    implementation project(<span class="string">':reviewscoreview'</span>)
+</pre>
+
+</div>
+<div class="metadata"><div class="explanation" id="explanationGradleDependency" style="display: none;">
+This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find.<br/>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
+To suppress this error, use the issue id "GradleDependency" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="chips">
+<span class="mdl-chip">
+    <span class="mdl-chip__text">GradleDependency</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Correctness</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Warning</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Priority 4/10</span>
+</span>
+</div>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationGradleDependencyLink" onclick="reveal('explanationGradleDependency');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="GradleDependencyCardLink" onclick="hideid('GradleDependencyCard');">
 Dismiss</button>            </div>
             </div>
           </section>
@@ -239,9 +316,11 @@ Dismiss</button>            </div>
 <div class="metadata"><div class="explanation" id="explanationAllowBackup" style="display: none;">
 The <code>allowBackup</code> attribute determines if an application's data can be backed up and restored. It is documented at <a href="http://developer.android.com/reference/android/R.attr.html#allowBackup">http://developer.android.com/reference/android/R.attr.html#allowBackup</a><br/>
 <br/>
-By default, this flag is set to <code>true</code> which means application data can be backed up and restored by the OS. Setting <code>allowBackup="false"</code> opts the application out of being backed up and so users can't restore data related to it when they go through the device setup wizard.<br/>
+By default, this flag is set to <code>true</code>. When this flag is set to <code>true</code>, application data can be backed up and restored by the user using <code>adb backup</code> and <code>adb restore</code>.<br/>
 <br/>
-Allowing backups may have security consequences for an application. Currently <code>adb backup</code> allows users who have enabled USB debugging to copy application data off of the device. Once backed up, all application data can be read by the user. <code>adb restore</code> allows creation of application data from a source specified by the user. Following a restore, applications should not assume that the data, file permissions, and directory permissions were created by the application itself.<br/>
+This may have security consequences for an application. <code>adb backup</code> allows users who have enabled USB debugging to copy application data off of the device. Once backed up, all application data can be read by the user. <code>adb restore</code> allows creation of application data from a source specified by the user. Following a restore, applications should not assume that the data, file permissions, and directory permissions were created by the application itself.<br/>
+<br/>
+Setting <code>allowBackup="false"</code> opts an application out of both backup and restore.<br/>
 <br/>
 To fix this warning, decide whether your application should support backup, and explicitly set <code>android:allowBackup=(true|false)"</code>.<br/>
 <br/>
@@ -270,52 +349,6 @@ To suppress this error, use the issue id "AllowBackup" as explained in the <a hr
               <div class="mdl-card__actions mdl-card--border">
 <button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationAllowBackupLink" onclick="reveal('explanationAllowBackup');">
 Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="AllowBackupCardLink" onclick="hideid('AllowBackupCard');">
-Dismiss</button>            </div>
-            </div>
-          </section>
-<a name="Performance"></a>
-<a name="MergeRootFrame"></a>
-<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="MergeRootFrameCard" style="display: block;">
-            <div class="mdl-card mdl-cell mdl-cell--12-col">
-  <div class="mdl-card__title">
-    <h2 class="mdl-card__title-text">FrameLayout can be replaced with &lt;merge> tag</h2>
-  </div>
-              <div class="mdl-card__supporting-text">
-<div class="issue">
-<div class="warningslist">
-<span class="location"><a href="../../src/main/res/layout/activity_main.xml">../../src/main/res/layout/activity_main.xml</a>:2</span>: <span class="message">This <code>&lt;FrameLayout></code> can be replaced with a <code>&lt;merge></code> tag</span><br /><pre class="errorlines">
-<span class="lineno">  1 </span><span class="prologue">&lt;?xml version="1.0" encoding="utf-8"?></span>
-<span class="caretline"><span class="lineno">  2 </span><span class="warning"><span class="tag">&lt;FrameLayout</span><span class="attribute"> </span><span class="prefix">xmlns:</span><span class="attribute">android</span>=<span class="value">"http://schemas.android.com/apk/res/android"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  3 </span>    <span class="prefix">xmlns:</span><span class="attribute">app</span>=<span class="value">"http://schemas.android.com/apk/res-auto"</span>
-<span class="lineno">  4 </span>    <span class="prefix">xmlns:</span><span class="attribute">tools</span>=<span class="value">"http://schemas.android.com/tools"</span>
-<span class="lineno">  5 </span>    <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-</pre>
-
-</div>
-<div class="metadata"><div class="explanation" id="explanationMergeRootFrame" style="display: none;">
-If a <code>&lt;FrameLayout></code> is the root of a layout and does not provide background or padding etc, it can often be replaced with a <code>&lt;merge></code> tag which is slightly more efficient. Note that this depends on context, so make sure you understand how the <code>&lt;merge></code> tag works before proceeding.<br/><div class="moreinfo">More info: <a href="http://android-developers.blogspot.com/2009/03/android-layout-tricks-3-optimize-by.html">http://android-developers.blogspot.com/2009/03/android-layout-tricks-3-optimize-by.html</a>
-</div>To suppress this error, use the issue id "MergeRootFrame" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
-<br/></div>
-</div>
-</div>
-<div class="chips">
-<span class="mdl-chip">
-    <span class="mdl-chip__text">MergeRootFrame</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Performance</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Warning</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Priority 4/10</span>
-</span>
-</div>
-              </div>
-              <div class="mdl-card__actions mdl-card--border">
-<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationMergeRootFrameLink" onclick="reveal('explanationMergeRootFrame');">
-Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="MergeRootFrameCardLink" onclick="hideid('MergeRootFrameCard');">
 Dismiss</button>            </div>
             </div>
           </section>
@@ -477,16 +510,6 @@ parameter types eligible for SAM conversion should be last.<br/><div class="more
 </div>
 </div>
 <div class="issue">
-<div class="id">LockedOrientationActivity<div class="issueSeparator"></div>
-</div>
-<div class="metadata">Disabled By: Default<br/>
-<div class="explanation">
-The <code>&lt;activity></code> element should not be locked to any orientation so that users can take advantage of the multi-window environments and larger screens on Chrome OS. To fix the issue, consider declaring the corresponding activity element with `screenOrientation="unspecified"<code>or </code>"fullSensor"` attribute.<br/><div class="moreinfo">More info: <a href="https://developer.android.com/topic/arc/window-management">https://developer.android.com/topic/arc/window-management</a>
-</div>To suppress this error, use the issue id "LockedOrientationActivity" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
-<br/></div>
-</div>
-</div>
-<div class="issue">
 <div class="id">LogConditional<div class="issueSeparator"></div>
 </div>
 <div class="metadata">Disabled By: Default<br/>
@@ -524,7 +547,7 @@ To suppress this error, use the issue id "MinSdkTooLow" as explained in the <a h
 </div>
 <div class="metadata">Disabled By: Default<br/>
 <div class="explanation">
-If a class is referenced in the manifest or in a layout file, it must also exist in the project (or in one of the libraries included by the project. This check helps uncover typos in registration names, or attempts to rename or move classes without updating the XML references properly.<br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/topics/manifest/manifest-intro.html">http://developer.android.com/guide/topics/manifest/manifest-intro.html</a>
+If a class is referenced in the manifest or in a layout file, it must also exist in the project (or in one of the libraries included by the project. This check helps uncover typos in registration names, or attempts to rename or move classes without updating the manifest file properly.<br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/topics/manifest/manifest-intro.html">http://developer.android.com/guide/topics/manifest/manifest-intro.html</a>
 </div>To suppress this error, use the issue id "MissingRegistered" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
 <br/></div>
 </div>
@@ -562,16 +585,6 @@ For example, Mockito&#8217;s <code>when</code> function requires backticks when 
     val callable = Mockito.mock(Callable::class.java)<br/>
     Mockito.`when`(callable.call()).thenReturn(/* &#8230; */)<br/><div class="moreinfo">More info: <a href="https://android.github.io/kotlin-guides/interop.html#no-hard-keywords">https://android.github.io/kotlin-guides/interop.html#no-hard-keywords</a>
 </div>To suppress this error, use the issue id "NoHardKeywords" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
-<br/></div>
-</div>
-</div>
-<div class="issue">
-<div class="id">NonResizeableActivity<div class="issueSeparator"></div>
-</div>
-<div class="metadata">Disabled By: Default<br/>
-<div class="explanation">
-The <code>&lt;activity></code> element should be allowed to be resized to allow users to take advantage of the multi-window environment on Chrome OS To fix the issue, consider declaring the corresponding activity element with <code>resizableActivity="true"</code> attribute.<br/><div class="moreinfo">More info: <a href="https://developer.android.com/topic/arc/window-management">https://developer.android.com/topic/arc/window-management</a>
-</div>To suppress this error, use the issue id "NonResizeableActivity" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
 <br/></div>
 </div>
 </div>
@@ -618,20 +631,6 @@ If a <code>&lt;TextView></code> is used to display data, the user might want to 
 <br/>
 This lint check looks for TextViews which are likely to be displaying data: views whose text is set dynamically. This value will be ignored on platforms older than API 11, so it is okay to set it regardless of your <code>minSdkVersion</code>.<br/>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
 To suppress this error, use the issue id "SelectableText" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
-<br/></div>
-</div>
-</div>
-<div class="issue">
-<div class="id">SourceLockedOrientationActivity<div class="issueSeparator"></div>
-</div>
-<div class="metadata">Disabled By: Default<br/>
-<div class="explanation">
-The <code>Activity</code> should not be locked to any orientation so that users<br/>
-can take advantage of the multi-window environments and larger screens<br/>
-available on Chrome OS. To fix the issue, consider calling <code>setRequestedOrientation</code><br/>
-with the <code>ActivityInfo.SCREEN_ORIENTATION_FULL_SENSOR</code> or<br/>
-<code>ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED</code> options or removing the call<br/>
-all together.<br/>To suppress this error, use the issue id "SourceLockedOrientationActivity" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
 <br/></div>
 </div>
 </div>
@@ -694,18 +693,6 @@ This app loads native libraries using <code>System.loadLibrary()</code>.<br/>
 <br/>
 Consider adding <code>android:extractNativeLibs="false"</code> to the <code>&lt;application></code> tag in AndroidManifest.xml. Starting with Android 6.0, this will make installation faster, the app will take up less space on the device and updates will have smaller download sizes.<br/>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
 To suppress this error, use the issue id "UnpackedNativeCode" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
-<br/></div>
-</div>
-</div>
-<div class="issue">
-<div class="id">UnsupportedChromeOsCameraSystemFeature<div class="issueSeparator"></div>
-</div>
-<div class="metadata">Disabled By: Default<br/>
-<div class="explanation">
-You should look for the <code>FEATURE_CAMERA_ANY</code> features to include all<br/>
-possible cameras that may be on the device. Looking for <code>FEATURE_CAMERA</code><br/>
-only looks for a rear facing camera, which certain tablets or Chrome OS<br/>
-devices don't have. To fix the issue, look for <code>FEATURE_CAMERA_ANY</code> instead.<br/>To suppress this error, use the issue id "UnsupportedChromeOsCameraSystemFeature" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
 <br/></div>
 </div>
 </div>
@@ -785,48 +772,44 @@ To suppress a lint warning in an XML file, add a <code>tools:ignore="id"</code> 
 <code>xmlns:tools="http://schemas.android.com/tools"</code><br/>
 <br/>
 To suppress a lint warning in a <code>build.gradle</code> file, add a section like this:<br/>
-
-<pre>
-android {
-    lintOptions {
-        disable 'TypographyFractions','TypographyQuotes'
-    }
-}
-</pre>
+<br/>
+android {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;lintOptions {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;disable 'TypographyFractions','TypographyQuotes'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br/>
+}<br/>
 <br/>
 Here we specify a comma separated list of issue id's after the disable command. You can also use <code>warning</code> or <code>error</code> instead of <code>disable</code> to change the severity of issues.<br/>
 <br/>
 To suppress lint warnings with a configuration XML file, create a file named <code>lint.xml</code> and place it at the root directory of the module in which it applies.<br/>
 <br/>
 The format of the <code>lint.xml</code> file is something like the following:<br/>
-
-<pre>
-&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;lint>
-    &lt;!-- Ignore everything in the test source set -->
-    &lt;issue id="all">
-        &lt;ignore path="\*/test/\*" />
-    &lt;/issue>
-
-    &lt;!-- Disable this given check in this project -->
-    &lt;issue id="IconMissingDensityFolder" severity="ignore" />
-
-    &lt;!-- Ignore the ObsoleteLayoutParam issue in the given files -->
-    &lt;issue id="ObsoleteLayoutParam">
-        &lt;ignore path="res/layout/activation.xml" />
-        &lt;ignore path="res/layout-xlarge/activation.xml" />
-        &lt;ignore regexp="(foo|bar)\.java" />
-    &lt;/issue>
-
-    &lt;!-- Ignore the UselessLeaf issue in the given file -->
-    &lt;issue id="UselessLeaf">
-        &lt;ignore path="res/layout/main.xml" />
-    &lt;/issue>
-
-    &lt;!-- Change the severity of hardcoded strings to "error" -->
-    &lt;issue id="HardcodedText" severity="error" />
-&lt;/lint>
-</pre>
+<br/>
+&lt;?xml version="1.0" encoding="UTF-8"?><br/>
+&lt;lint><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Ignore everything in the test source set --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="all"><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ignore path="*/test/*" /><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/issue><br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Disable this given check in this project --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="IconMissingDensityFolder" severity="ignore" /><br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Ignore the ObsoleteLayoutParam issue in the given files --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="ObsoleteLayoutParam"><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ignore path="res/layout/activation.xml" /><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ignore path="res/layout-xlarge/activation.xml" /><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ignore regexp="(foo|bar).java" /><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/issue><br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Ignore the UselessLeaf issue in the given file --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="UselessLeaf"><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ignore path="res/layout/main.xml" /><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/issue><br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Change the severity of hardcoded strings to "error" --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="HardcodedText" severity="error" /><br/>
+&lt;/lint><br/>
 <br/>
 To suppress lint checks from the command line, pass the --ignore flag with a comma separated list of ids to be suppressed, such as:<br/>
 <code>$ lint --ignore UnusedResources,UselessLeaf /my/project/path</code><br/>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="secondary_color">#757575</color>
+    <color name="review_score_secondary_color">#757575</color>
 
-    <color name="review_filled_color">#fabb05</color>
+    <color name="review_score_filled_color">#fabb05</color>
+    <color name="review_score_unfilled_color">#e0e0e0</color>
 
 </resources>

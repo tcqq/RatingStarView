@@ -4,17 +4,7 @@
             "outputFile": "E:\\GitHub\\ReviewScoreView\\reviewscoreview\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v28\\values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Alan Dreamer\\.gradle\\caches\\transforms-2\\files-2.1\\5cee232ea5f970cc00e58eb1bef22606\\material-1.1.0-alpha09\\res\\values-v28\\values-v28.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,143,231,319,407,494,581,668",
-                        "endColumns": "87,87,87,87,86,86,86,86",
-                        "endOffsets": "138,226,314,402,489,576,663,750"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Alan Dreamer\\.gradle\\caches\\transforms-2\\files-2.1\\79cf637c26148c70babd46cb3604a174\\appcompat-1.1.0-rc01\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\Alan Dreamer\\.gradle\\caches\\transforms-2\\files-2.1\\f6358b1398b2e41134daeb0a46deb7f5\\appcompat-1.1.0-rc01\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
@@ -30,6 +20,16 @@
                         "endLines": "10,11,15,19",
                         "endColumns": "74,86,12,12",
                         "endOffsets": "825,912,1142,1384"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Alan Dreamer\\.gradle\\caches\\transforms-2\\files-2.1\\198a3977f490cf298ced9e70902562cb\\material-1.1.0-alpha09\\res\\values-v28\\values-v28.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,143,231,319,407,494,581,668",
+                        "endColumns": "87,87,87,87,86,86,86,86",
+                        "endOffsets": "138,226,314,402,489,576,663,750"
                     }
                 }
             ]
@@ -38,17 +38,7 @@
             "outputFile": "E:\\GitHub\\ReviewScoreView\\reviewscoreview\\build\\intermediates\\res\\merged\\release\\values-v28\\values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Alan Dreamer\\.gradle\\caches\\transforms-2\\files-2.1\\5cee232ea5f970cc00e58eb1bef22606\\material-1.1.0-alpha09\\res\\values-v28\\values-v28.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,143,231,319,407,494,581,668",
-                        "endColumns": "87,87,87,87,86,86,86,86",
-                        "endOffsets": "138,226,314,402,489,576,663,750"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Alan Dreamer\\.gradle\\caches\\transforms-2\\files-2.1\\79cf637c26148c70babd46cb3604a174\\appcompat-1.1.0-rc01\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\Alan Dreamer\\.gradle\\caches\\transforms-2\\files-2.1\\f6358b1398b2e41134daeb0a46deb7f5\\appcompat-1.1.0-rc01\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
@@ -64,6 +54,16 @@
                         "endLines": "10,11,15,19",
                         "endColumns": "74,86,12,12",
                         "endOffsets": "825,912,1142,1384"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Alan Dreamer\\.gradle\\caches\\transforms-2\\files-2.1\\198a3977f490cf298ced9e70902562cb\\material-1.1.0-alpha09\\res\\values-v28\\values-v28.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,143,231,319,407,494,581,668",
+                        "endColumns": "87,87,87,87,86,86,86,86",
+                        "endOffsets": "138,226,314,402,489,576,663,750"
                     }
                 }
             ]

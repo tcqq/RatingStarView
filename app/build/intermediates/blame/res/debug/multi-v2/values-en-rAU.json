@@ -4,7 +4,7 @@
             "outputFile": "E:\\GitHub\\ReviewScoreView\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Alan Dreamer\\.gradle\\caches\\transforms-2\\files-2.1\\79cf637c26148c70babd46cb3604a174\\appcompat-1.1.0-rc01\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "source": "C:\\Users\\Alan Dreamer\\.gradle\\caches\\transforms-2\\files-2.1\\f6358b1398b2e41134daeb0a46deb7f5\\appcompat-1.1.0-rc01\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Alan Dreamer\\.gradle\\caches\\transforms-2\\files-2.1\\ca8a76b4700ef18b3e4bb2ebbf274134\\core-1.1.0-rc02\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "source": "C:\\Users\\Alan Dreamer\\.gradle\\caches\\transforms-2\\files-2.1\\a998f23db73783d3cfde94cd47319d07\\core-1.1.0-rc02\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

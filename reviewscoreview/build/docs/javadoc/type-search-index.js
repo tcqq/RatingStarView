@@ -1,1 +1,0 @@
-typeSearchIndex = [{"p":"com.tcqq.reviewscoreview","l":"BuildConfig"},{"l":"所有类","url":"allclasses-index.html"}]

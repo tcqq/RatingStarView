@@ -29,7 +29,7 @@ repositories {
 ```
 dependencies {
     // Using JCenter
-    implementation 'com.tcqq.android:reviewscoreview:1.0.1'
+    implementation 'com.tcqq.android:reviewscoreview:1.0.2'
 }
 ```
 

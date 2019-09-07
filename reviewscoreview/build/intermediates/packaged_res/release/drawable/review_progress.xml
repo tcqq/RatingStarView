@@ -3,7 +3,7 @@
     <item android:id="@android:id/background">
         <shape>
             <corners android:radius="8dp" />
-            <solid android:color="@color/rating_progress_bar_background_color_selector" />
+            <solid android:color="@color/review_score_unfilled_color" />
         </shape>
     </item>
 
@@ -13,10 +13,10 @@
                 <corners android:radius="8dp" />
                 <gradient
                     android:angle="270"
-                    android:centerColor="@color/rating_progress_bar_background_color_selector"
+                    android:centerColor="@color/review_score_unfilled_color"
                     android:centerY="0.75"
-                    android:endColor="@color/review_filled_color"
-                    android:startColor="@color/review_filled_color"
+                    android:endColor="@color/review_score_filled_color"
+                    android:startColor="@color/review_score_filled_color"
 
                     />
             </shape>
@@ -30,8 +30,8 @@
                 <corners android:radius="8dp" />
                 <gradient
                     android:angle="270"
-                    android:endColor="@color/review_filled_color"
-                    android:startColor="@color/review_filled_color" />
+                    android:endColor="@color/review_score_filled_color"
+                    android:startColor="@color/review_score_filled_color" />
             </shape>
         </clip>
     </item>

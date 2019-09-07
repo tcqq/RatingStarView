@@ -451,10 +451,11 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
-    <color name="review_filled_color">#fabb05</color>
+    <color name="review_score_filled_color">#fabb05</color>
+    <color name="review_score_secondary_color">#757575</color>
+    <color name="review_score_unfilled_color">#e0e0e0</color>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
-    <color name="secondary_color">#757575</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
@@ -3005,7 +3006,7 @@
     </style>
     <style name="Platform.Widget.AppCompat.Spinner" parent="android:Widget.Holo.Spinner"/>
     <style name="RatingBar" parent="Theme.MaterialComponents.Light">
-        <item name="colorControlActivated">@color/review_filled_color</item>
+        <item name="colorControlActivated">@color/review_score_filled_color</item>
     </style>
     <style name="RtlOverlay.DialogWindowTitle.AppCompat" parent="Base.DialogWindowTitle.AppCompat">
     </style>
