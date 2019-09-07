@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.tcqq.reviewscoreview.ExampleUnitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-07T16:11:08" hostname="DESKTOP-HT2Q3MF" time="0.001">
-  <properties/>
-  <testcase name="addition_isCorrect" classname="com.tcqq.reviewscoreview.ExampleUnitTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
