@@ -10,7 +10,7 @@ import kotlinx.android.synthetic.main.view_review_score.view.*
 
 
 /**
- * @author Alan Dreamer
+ * @author Alan Perry
  * @since 2019-07-29 Created
  */
 class ReviewScoreView @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null) :

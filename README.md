@@ -40,7 +40,7 @@ dependencies {
 License
 -------
 
-Copyright 2019 Alan Dreamer.
+Copyright 2019 Alan Perry.
 
 Licensed to the Apache Software Foundation (ASF) under one or more contributor
 license agreements.  See the NOTICE file distributed with this work for
