@@ -2,7 +2,7 @@
 [![JitPack](https://jitpack.io/v/tcqq/ReviewScoreView.svg)](https://jitpack.io/#tcqq/ReviewScoreView)
 [![Licence](https://img.shields.io/badge/Licence-Apache2-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 
-# ExpandView
+# ReviewScoreView
 
 View for displaying review scores.
 
