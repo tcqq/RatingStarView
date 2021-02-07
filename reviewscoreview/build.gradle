@@ -1,17 +1,10 @@
-apply plugin: 'com.android.library'
-apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
-apply plugin: 'com.novoda.bintray-release'
-
-publish {
-    userOrg = 'tcqq'
-    groupId = 'com.tcqq.android'
-    artifactId = 'reviewscoreview'
-    repoName = 'android'
-    publishVersion = '1.0.2'
-    desc = 'View for displaying review scores.'
-    website = 'https://github.com/tcqq/ReviewScoreView'
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
 }
+
+group='com.github.tcqq'
 
 android {
     compileSdkVersion 29

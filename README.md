@@ -1,5 +1,5 @@
 [![API](https://img.shields.io/badge/API-17%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=17)
-[ ![Download](https://api.bintray.com/packages/tcqq/android/reviewscoreview/images/download.svg) ](https://bintray.com/tcqq/android/reviewscoreview/_latestVersion)
+[![JitPack](https://jitpack.io/v/tcqq/ReviewScoreView.svg)](https://jitpack.io/#tcqq/ReviewScoreView)
 [![Licence](https://img.shields.io/badge/Licence-Apache2-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 
 # ExpandView
@@ -23,13 +23,13 @@ review_score_view.setReviewSize(size: Int)
 #### build.gradle
 ```
 repositories {
-    jcenter()
+    maven { url 'https://jitpack.io' }
 }
 ```
 ```
 dependencies {
-    // Using JCenter
-    implementation 'com.tcqq.android:reviewscoreview:1.0.2'
+    // Using ReviewScoreView
+    implementation 'com.github.tcqq:reviewscoreview:1.0.2'
 }
 ```
 
