@@ -2,7 +2,7 @@ package com.example.ratingstarview
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_main.review_score_view
+import kotlinx.android.synthetic.main.activity_main.rating_star_view
 
 class MainActivity : AppCompatActivity() {
 
@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        review_score_view.apply {
+        rating_star_view.apply {
             setOneRatingPercent(2)
             setTwoRatingPercent(60)
             setThreeRatingPercent(30)

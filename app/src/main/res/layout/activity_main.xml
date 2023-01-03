@@ -14,7 +14,7 @@
         android:layout_marginEnd="8dp">
 
         <com.tcqq.ratingstarview.RatingStarView
-            android:id="@+id/review_score_view"
+            android:id="@+id/rating_star_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="14dp"
