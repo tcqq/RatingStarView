@@ -2,21 +2,27 @@
 [![JitPack](https://jitpack.io/v/tcqq/ReviewScoreView.svg)](https://jitpack.io/#tcqq/ReviewScoreView)
 [![Licence](https://img.shields.io/badge/Licence-Apache2-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 
-# ReviewScoreView
+# RatingStarView
 
-View for displaying review scores.
+View for displaying rating star.
 
 # Usage
 ``` 
-<com.tcqq.reviewscoreview.RatingStarView
+<com.tcqq.ratingstarview.RatingStarView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"/>
 ``` 
 
 ``` 
-review_score_view.setRatingProgress(one: Int, two: Int, three: Int, four: Int, five: Int)
-review_score_view.setRating(rating: Float)
-review_score_view.setReviewSize(size: Int)
+review_score_view.apply {
+    setOneRatingPercent(2)
+    setTwoRatingPercent(60)
+    setThreeRatingPercent(30)
+    setFourRatingPercent(80)
+    setFiveRatingPercent(100)
+    setRating(4.3F)
+    setReviewSize("58 reviews")
+}
 ``` 
 
 # Setup
@@ -28,8 +34,8 @@ repositories {
 ```
 ```
 dependencies {
-    // Using ReviewScoreView
-    implementation 'com.github.tcqq:reviewscoreview:2.0.0'
+    // Using RatingStarView
+    implementation 'com.github.tcqq:ratingstarview:3.0.0'
 }
 ```
 
