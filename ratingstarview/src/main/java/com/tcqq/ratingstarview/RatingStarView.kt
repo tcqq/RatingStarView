@@ -28,24 +28,17 @@ class RatingStarView @JvmOverloads constructor(context: Context, attrs: Attribut
         inflater.inflate(R.layout.view_rating_star, this, true)
     }
 
-    fun setOneRatingPercent(@IntRange(from = 0, to = 100) percent: Int) {
-        rating_one.progress = percent
-    }
-
-    fun setTwoRatingPercent(@IntRange(from = 0, to = 100) percent: Int) {
-        rating_two.progress = percent
-    }
-
-    fun setThreeRatingPercent(@IntRange(from = 0, to = 100) percent: Int) {
-        rating_three.progress = percent
-    }
-
-    fun setFourRatingPercent(@IntRange(from = 0, to = 100) percent: Int) {
-        rating_four.progress = percent
-    }
-
-    fun setFiveRatingPercent(@IntRange(from = 0, to = 100) percent: Int) {
-        rating_five.progress = percent
+    fun setRatingPercent(
+        @IntRange(from = 1, to = 5) star: Int,
+        @IntRange(from = 0, to = 100) percent: Int
+    ) {
+        when (star) {
+            1 -> rating_one.progress = percent
+            2 -> rating_two.progress = percent
+            3 -> rating_three.progress = percent
+            4 -> rating_four.progress = percent
+            5 -> rating_five.progress = percent
+        }
     }
 
     fun setRating(@FloatRange(from = 0.0, to = 5.0) rating: Float) {

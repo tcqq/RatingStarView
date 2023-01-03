@@ -15,11 +15,11 @@ View for displaying rating star.
 
 ``` 
 rating_star_view.apply {
-    setOneRatingPercent(2)
-    setTwoRatingPercent(60)
-    setThreeRatingPercent(30)
-    setFourRatingPercent(80)
-    setFiveRatingPercent(100)
+    setRatingPercent(1, 2)
+    setRatingPercent(2, 60)
+    setRatingPercent(3, 30)
+    setRatingPercent(4, 80)
+    setRatingPercent(5, 100)
     setRating(4.3F)
     setReviewSize("58 reviews")
 }
