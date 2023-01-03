@@ -10,8 +10,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        review_score_view.setRatingProgress(2, 60, 30, 80, 100)
-        review_score_view.setRating(4.3F)
-        review_score_view.setReviewSize(58)
+/*        review_score_view.apply {
+            setOneRatingPercent(2)
+            setTwoRatingPercent(60)
+            setThreeRatingPercent(30)
+            setFourRatingPercent(80)
+            setFiveRatingPercent(100)
+            setRating(4.3F)
+            setReviewSize("58 reviews")
+        }*/
     }
 }

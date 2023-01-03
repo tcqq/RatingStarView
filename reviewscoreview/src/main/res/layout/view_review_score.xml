@@ -37,7 +37,6 @@
             android:layout_height="12dp"
             android:layout_marginStart="8dp"
             android:max="100"
-            android:progress="100"
             android:progressDrawable="@drawable/review_progress"
             app:layout_constraintBottom_toBottomOf="@+id/review_five_text"
             app:layout_constraintEnd_toEndOf="parent"
@@ -62,7 +61,6 @@
             android:layout_height="12dp"
             android:layout_marginStart="8dp"
             android:max="100"
-            android:progress="80"
             android:progressDrawable="@drawable/review_progress"
             app:layout_constraintBottom_toBottomOf="@+id/review_four_text"
             app:layout_constraintEnd_toEndOf="parent"
@@ -87,7 +85,6 @@
             android:layout_height="12dp"
             android:layout_marginStart="8dp"
             android:max="100"
-            android:progress="30"
             android:progressDrawable="@drawable/review_progress"
             app:layout_constraintBottom_toBottomOf="@+id/review_three_text"
             app:layout_constraintEnd_toEndOf="parent"
@@ -112,7 +109,6 @@
             android:layout_height="12dp"
             android:layout_marginStart="8dp"
             android:max="100"
-            android:progress="60"
             android:progressDrawable="@drawable/review_progress"
             app:layout_constraintBottom_toBottomOf="@+id/review_two_text"
             app:layout_constraintEnd_toEndOf="parent"
@@ -137,7 +133,6 @@
             android:layout_height="12dp"
             android:layout_marginStart="8dp"
             android:max="100"
-            android:progress="2"
             android:progressDrawable="@drawable/review_progress"
             app:layout_constraintBottom_toBottomOf="@+id/review_one_text"
             app:layout_constraintEnd_toEndOf="parent"
@@ -158,7 +153,7 @@
             android:id="@+id/rating_value"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="4.3"
+            android:text="5.0"
             android:textAppearance="?attr/textAppearanceHeadline3" />
 
         <androidx.appcompat.widget.AppCompatRatingBar
@@ -168,14 +163,14 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:layout_marginBottom="12dp"
-            android:rating="4.3"
+            android:rating="5.0"
             android:theme="@style/RatingBar" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/review_size"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="58 条评价"
+            android:text="0 reviews"
             android:textAppearance="?attr/textAppearanceBody1" />
 
     </LinearLayout>

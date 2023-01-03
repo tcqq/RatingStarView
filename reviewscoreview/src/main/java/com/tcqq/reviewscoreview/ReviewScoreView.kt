@@ -21,18 +21,24 @@ class ReviewScoreView @JvmOverloads constructor(context: Context, attrs: Attribu
         inflater.inflate(R.layout.view_review_score, this, true)
     }
 
-    fun setRatingProgress(
-        @IntRange(from = 0, to = 100) one: Int,
-        @IntRange(from = 0, to = 100) two: Int,
-        @IntRange(from = 0, to = 100) three: Int,
-        @IntRange(from = 0, to = 100) four: Int,
-        @IntRange(from = 0, to = 100) five: Int
-    ) {
-        rating_one.progress = one
-        rating_two.progress = two
-        rating_three.progress = three
-        rating_four.progress = four
-        rating_five.progress = five
+    fun setOneRatingPercent(@IntRange(from = 0, to = 100) percent: Int) {
+        rating_one.progress = percent
+    }
+
+    fun setTwoRatingPercent(@IntRange(from = 0, to = 100) percent: Int) {
+        rating_two.progress = percent
+    }
+
+    fun setThreeRatingPercent(@IntRange(from = 0, to = 100) percent: Int) {
+        rating_three.progress = percent
+    }
+
+    fun setFourRatingPercent(@IntRange(from = 0, to = 100) percent: Int) {
+        rating_four.progress = percent
+    }
+
+    fun setFiveRatingPercent(@IntRange(from = 0, to = 100) percent: Int) {
+        rating_five.progress = percent
     }
 
     fun setRating(@FloatRange(from = 0.0, to = 5.0) rating: Float) {
@@ -40,7 +46,7 @@ class ReviewScoreView @JvmOverloads constructor(context: Context, attrs: Attribu
         rating_value.text = rating.toString()
     }
 
-    fun setReviewSize(size: Int) {
-        review_size.text = context.getString(R.string.n_reviews, size)
+    fun setReviewSize(sizeText: String) {
+        review_size.text = sizeText
     }
 }
