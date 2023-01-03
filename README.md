@@ -14,7 +14,7 @@ View for displaying rating star.
 ``` 
 
 ``` 
-review_score_view.apply {
+rating_star_view.apply {
     setOneRatingPercent(2)
     setTwoRatingPercent(60)
     setThreeRatingPercent(30)
