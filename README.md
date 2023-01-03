@@ -29,7 +29,7 @@ repositories {
 ```
 dependencies {
     // Using ReviewScoreView
-    implementation 'com.github.tcqq:reviewscoreview:1.0.2'
+    implementation 'com.github.tcqq:reviewscoreview:2.0.0'
 }
 ```
 
