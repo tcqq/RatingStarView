@@ -1,2 +1,2 @@
-include ':app', ':reviewscoreview'
-rootProject.name='ReviewScoreView'
+include ':app', ':ratingstarview'
+rootProject.name='RatingStarView'

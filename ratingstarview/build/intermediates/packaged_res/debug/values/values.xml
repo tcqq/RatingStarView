@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="duration"/>
+    <attr name="flow_horizontalSeparator"/>
+    <attr name="flow_verticalSeparator"/>
+    <attr name="motionPathRotate"/>
+    <attr name="motionProgress"/>
+    <attr name="waveDecay"/>
+    <color name="review_score_filled_color">#fabb05</color>
+    <color name="review_score_secondary_color">#757575</color>
+    <color name="review_score_unfilled_color">#e0e0e0</color>
+    <string name="app_name">ReviewScoreView</string>
+    <style name="RatingBar" parent="Theme.MaterialComponents.Light">
+        <item name="colorControlActivated">@color/review_score_filled_color</item>
+    </style>
+</resources>

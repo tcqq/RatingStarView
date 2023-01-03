@@ -8,7 +8,7 @@ View for displaying review scores.
 
 # Usage
 ``` 
-<com.tcqq.reviewscoreview.ReviewScoreView
+<com.tcqq.reviewscoreview.RatingStarView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"/>
 ``` 
